@@ -8,7 +8,10 @@
 	</header>
 
 	<main id="main" role="main" class="wrapper">
-		
+		<section class="content">
+			<h1>Titulo Principal</h1>
+			<p></p>
+		</section>
 	</main>
 	<?php include("footer.php"); ?>
 </body>

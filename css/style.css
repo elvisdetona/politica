@@ -35,11 +35,15 @@
 
 /************************************************/
 body {
-  background-color: #ff0000;
+  color: #162c55;
 }
 header {
   background-color: #ffffff;
 }
+header.interna {
+  padding-bottom: 320px;
+}
+
 header h1, header img {
   width: 105px;
   height: 100px;
@@ -70,7 +74,7 @@ main {
 }
 .box-destaque img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 .box-destaque h2 {
   position: absolute;
@@ -111,6 +115,13 @@ textarea {
 
 /* #Base Grid
 ================================================== */
+.content {
+  padding: 32px 46px;
+  background-color: #ffffff;
+  position: relative;
+  margin-top: -32px;
+}
+
 .wrapper { 
   position: relative; 
   width: 946px; 
@@ -200,4 +211,20 @@ a.ir {
   overflow: hidden;
   display: block;
   text-align: left;
-}s
+}
+.oculto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  display: none;
+  
+  background-color: #000000;
+}
+.oculto a {
+  color: #ffffff;
+  height: 30px;
+  display: block;
+  padding-top: 5px;
+}

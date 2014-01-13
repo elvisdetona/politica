@@ -63,7 +63,7 @@
 			</article>
 
 		</section>
-		<?php include("contato.php"); ?>
+		<?php include("formulario.php"); ?>
 	</main>
 	<?php include("footer.php"); ?>
 </body>
