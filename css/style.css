@@ -44,7 +44,7 @@ header.interna {
   padding-bottom: 320px;
 }
 
-header h1, header img {
+header h1, header h1 img {
   width: 105px;
   height: 100px;
   display: inline-block;
@@ -62,6 +62,22 @@ nav {
 nav ul li {
   display: inline-block;
 }
+.full.contato {
+  background-image: url("http://lorempixel.com/1500/320/");
+}
+.full.quem-somos {
+  background-image: url("http://lorempixel.com/1500/320/");
+}
+.full.o-que-fazemos {
+  background-image: url("http://lorempixel.com/1500/320/");
+}
+.full.como-fazemos {
+  background-image: url("http://lorempixel.com/1500/320/");
+}
+.full.portfolio {
+  background-image: url("http://lorempixel.com/1500/320/");
+}
+
 main {
   display: table;
 }
@@ -121,6 +137,12 @@ textarea {
   position: relative;
   margin-top: -32px;
 }
+.full {
+  width: 100%;
+  background-color: #ffffff;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
 
 .wrapper { 
   position: relative; 
@@ -158,7 +180,16 @@ textarea {
 /* #Tablet (Portrait)
 ================================================== */
 /* 768px */
-@media only screen and (min-width: 768px) and (max-width: 959px) { }
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+.wrapper { 
+  position: relative; 
+  width: 500px; 
+  margin: 0 auto; 
+  padding: 0; 
+  background-color:#ffffff;
+}
+ }
 
 
 /*  #Mobile (Portrait)
@@ -227,4 +258,111 @@ a.ir {
   height: 30px;
   display: block;
   padding-top: 5px;
+}
+
+
+/* carousel */
+.jcarousel-wrapper {
+    margin: 20px auto;
+    position: relative;
+    display: block;
+}
+
+
+
+/** Carousel **/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    /*width: 980px;*/
+    max-width: 1278px;
+    height: 610px;
+    margin: 0 auto;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+    width: 1278px;
+    text-align: center;
+   
+}
+
+/** Carousel Controls **/
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+    position: absolute;
+    top: 200px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #4E443C;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 24px/27px Arial, sans-serif;
+    -webkit-border-radius: 30px;
+       -moz-border-radius: 30px;
+            border-radius: 30px;
+    -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;
+}
+
+.jcarousel-control-prev {
+    left: -50px;
+}
+
+.jcarousel-control-next {
+    right: -50px;
+}
+
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {
+    display: block;
+}
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+    opacity: .5;
+    cursor: default;
+}
+
+/** Carousel Pagination **/
+
+.jcarousel-pagination {
+    position: absolute;
+    bottom: 300px;
+    right: 0;
+}
+
+.jcarousel-pagination a {
+    text-decoration: none;
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin-bottom: 5px;
+    border: 2px solid #ef6828;
+    color: #4E443C;
+    border-radius: 50%;
+    padding: 3px;
+
+    /*opacity: .75;*/
+    text-indent: -999999px;
+    overflow: hidden;
+}
+
+.jcarousel-pagination a.active {
+    background: #ef6828;
+    color: #fff;
+    /*opacity: 1;*/
 }

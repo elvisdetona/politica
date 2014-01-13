@@ -5,20 +5,22 @@
 			<h1><a href="/" class="ir">Eleições Digitais - Comunicação Pública</a></h1>
 			<?php include("menu.php"); ?>
 		</section>
-		<section class="animahome">
-			<ul>
-				<li><a href="#"><img src="http://lorempixel.com/980/610/" alt=""></a></li>
-				<li><a href="#"><img src="http://lorempixel.com/980/610/" alt=""></a></li>
-				<li><a href="#"><img src="http://lorempixel.com/980/610/" alt=""></a></li>
-				<li><a href="#"><img src="http://lorempixel.com/980/610/" alt=""></a></li>
-			</ul>
-			<div class="navigation wrapper">
+		<section class="jcarousel-wrapper">
+			<div class="jcarousel">
 				<ul>
-					<li><a href="#">1</a></li>
-					<li><a href="#">2</a></li>
-					<li><a href="#">3</a></li>
-					<li><a href="#">4</a></li>
+					<li>
+					<a href="http://www.uol.com.br" target="_blank"><img src="http://lorempixel.com/g/1278/610/sports/" alt=""></a>
+					</li>
+					<li><a href="#"><img src="http://lorempixel.com/1278/610/" alt=""></a></li>
+					<li><a href="#"><img src="http://lorempixel.com/1278/610/sports/1/" alt=""></a></li>
+					<li><a href="#"><img src="http://lorempixel.com/1278/610/" alt=""></a></li>
 				</ul>
+			</div>
+
+			<div class="navigation wrapper">
+                <p class="jcarousel-pagination">
+                 
+                </p>
 			</div>
 		</section>
 	</header>
