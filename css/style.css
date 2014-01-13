@@ -1,0 +1,158 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* #Fonts */
+@font-face {
+    font-family: 'caecilia_lt_std75_bold';
+    src: url('fonts/caecilialtstd-bold-webfont.eot');
+    src: url('fonts/caecilialtstd-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/caecilialtstd-bold-webfont.woff') format('woff'),
+         url('fonts/caecilialtstd-bold-webfont.ttf') format('truetype'),
+         url('fonts/caecilialtstd-bold-webfont.svg#caecilia_lt_std75_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing 
+    #Font light - weight:300;
+    #Font normal - weight:400;
+    #Font semibold - weight:600;
+    #Font bold - weight:700;
+    */
+    
+
+/************************************************/
+
+main {
+  display: table;
+}
+
+/* formulários */
+
+input[type=text],
+input[type=email],
+input[type=password],
+input.input-text,
+select {
+  height: 44px;
+  border-radius: 5px;
+  background: #f1f1f1;
+  border:1px solid #dddddd;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+}
+textarea {
+  border-radius: 5px;
+  background: #f1f1f1;
+  border:1px solid #dddddd;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+  min-height: 100px; 
+}
+
+
+/* #Base Grid
+================================================== */
+.wrapper { 
+  position: relative; 
+  width: 946px; 
+  margin: 0 auto; 
+  padding: 0; 
+  background-color:#ffffff;
+}
+.wrapper .column,
+.wrapper .columns {
+  float: left; 
+  display: inline;
+  padding: 0 10px;
+}
+
+/* Base Grid */
+.wrapper .one.column,
+.wrapper .one.columns { 
+  width: 100%;  
+}
+.wrapper .two.columns { 
+  width: 498px; 
+}
+.wrapper .three.columns { 
+  width: 322px; 
+}
+.wrapper .four.columns { 
+  width: 240px; 
+}
+.wrapper .five.columns { 
+  width: 199px; 
+}
+
+/* #Tablet (Portrait)
+================================================== */
+/* 768px */
+@media only screen and (min-width: 768px) and (max-width: 959px) { }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+/* 320px */
+@media only screen and (max-width: 767px) { }
+
+
+/* #Mobile (Landscape)
+================================================== */
+/* 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) { }
+
+
+
+
+
+
+
+/* #Clearing
+================================================== */
+
+.wrapper:after { 
+  content: "\0020"; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden; 
+}
+.clearfix:before,
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.clearfix:after {
+      clear: both; 
+}
+.clearfix {
+  zoom: 1; 
+  display: block;
+  clear: both;
+}
+.ir, 
+a.ir {
+  text-indent: -9999999px;
+  overflow: hidden;
+  display: block;
+  text-align: left;
+}s
