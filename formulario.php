@@ -1,5 +1,5 @@
 		<section class="contactform">
-			<h2>Contato</h2>
+			<h2 class="titcontact">Contato</h2>
 			<div class="two columns">
 				<p>Envie uma mensagem:</p>
 				<form action="#" method="post">

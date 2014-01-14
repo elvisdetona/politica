@@ -7,6 +7,6 @@
 					<li><a href="como-fazemos.php" aria-label="ir para página Como fazemos">Como fazemos</a></li>
 					<li><a href="portfolio.php" aria-label="ir para página Portfólio">Portfólio</a></li>
 					<li><a href="contato.php" aria-label="ir para página Contato">Contato</a></li>
-					<li><a href="http://twitter.com/eleicoesdigitais" aria-label="Acessar o twitter @eleicoesdigitais" target="_blank" rel="external">@eleicoesdigitais</a></li>
+					<li><a href="http://twitter.com/eleicoesdigitais" aria-label="Acessar o twitter @eleicoesdigitais" target="_blank" rel="external"><img src="img/menu-twitter.png" alt="Acessar o twitter"></a></li>
 				</ul>
 			</nav>

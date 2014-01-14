@@ -9,9 +9,9 @@
 			<div class="jcarousel">
 				<ul>
 					<li>
-					<a href="http://www.uol.com.br" target="_blank"><img src="http://lorempixel.com/g/1278/610/sports/" alt=""></a>
+					<a href="#"><img src="img/banner-offline.png"></a>
 					</li>
-					<li><a href="#"><img src="http://lorempixel.com/1278/610/" alt=""></a></li>
+					<li><a href="#"><img src="img/banner-passado.png"></a></li>
 					<li><a href="#"><img src="http://lorempixel.com/1278/610/sports/1/" alt=""></a></li>
 					<li><a href="#"><img src="http://lorempixel.com/1278/610/" alt=""></a></li>
 				</ul>
@@ -30,7 +30,7 @@
 			<article class="box-destaque three columns">
 				<a href="#" aria-label="clique para ver o Nome do Destaque">
 					<img src="http://lorempixel.com/980/610/" alt="">
-					<h2>Nome do destaque</h2>
+					<h2>nnnn</h2>
 				</a>
 			</article>
 			<article class="box-destaque three columns">
