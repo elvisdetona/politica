@@ -1,5 +1,5 @@
 <footer role="contentinfo" class="wrapper">
-		<address>Todos os direitos reservados - info@eleicoesdigitais.com.br - 11 9999-9999</address>
+		<address>Todos os direitos reservados - atendimento@eleicoesdigitais.com.br - 11 95771-9881</address>
 	</footer>
 	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="js/carousel.js"></script>	

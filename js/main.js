@@ -1,12 +1,13 @@
 (function($) {
     $(function() {
-        $('.jcarousel').jcarousel({});
-        /*.jcarouselAutoscroll({
+
+        $('.jcarousel').jcarousel({})
+        .jcarouselAutoscroll({
             interval: 8000,
-            target: '-=1',
-            wrap : 'circular',
+            target: '+=1',
+            //wrap : 'circular',
             autostart: true
-        });*/
+        });
 
         $('.jcarousel-control-prev')
             .on('jcarouselcontrol:active', function() {

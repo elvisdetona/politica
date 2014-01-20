@@ -7,11 +7,14 @@
 		</section>
 	</header>
 
-	<main id="main" role="main" class="wrapper">
-		<section class="content">
-			<?php include("formulario.php"); ?>
-		</section>
+	<main id="main" role="main" class="full bg">
+		<div class="wrapper">
+			<section class="content">
+				<?php include("formulario.php"); ?>
+			</section>
+		</div>
+		<?php include("footer.php"); ?>
 	</main>
-	<?php include("footer.php"); ?>
+	
 </body>
 </html>

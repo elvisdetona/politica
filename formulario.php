@@ -1,7 +1,8 @@
 		<section class="contactform">
 			<h2 class="titcontact">Contato</h2>
+			<p>Entre em contato para agendar uma visita<br />
+				ou obter mais informações.</p>
 			<div class="two columns">
-				<p>Envie uma mensagem:</p>
 				<form action="#" method="post">
 					<ul>
 						<li>
@@ -17,18 +18,20 @@
 							<textarea name="mensagem" id="mensagem"></textarea>
 						</li>
 						<li>
-							<input type="submit" name="enviar" value="enviar" />
+							<input type="submit" name="enviar" value="enviar" class="ir" />
 						</li>
 					</ul>
 				</form>
 				<p><strong>Mensagem enviada com sucesso!</strong></p>
 			</div>
 			<div class="two columns">
-				<p>Rua Augusta, 1000, <br />
+				<p class="bgbox">Rua Barata Ribeiro, 260 1º andar<br />
 				São Paulo/SP<br />
-				11 99999-9999<br />
-				<a href="mailto:info@eleicoesdigitais.com.br" aria-label="Envie um e-mail para info@eleicoesdigitais.com.br">info@eleicoesdigitais.com.br</a> <br />
-				<a href="http://twitter.com/eleicoesdigitais" aria-label="Acessar o twitter @eleicoesdigitais" target="_blank" rel="external">@eleicoesdigitais</a>
+				11 95771-9881<br />
+				<a href="mailto:atendimento@eleicoesdigitais.com.br" aria-label="Envie um e-mail para atendimento@eleicoesdigitais.com.br">atendimento@eleicoesdigitais.com.br</a> <br />
+				<a href="http://twitter.com/eleicoesdigt" aria-label="Acessar o twitter @eleicoesdigt" target="_blank" class="twt">
+				@eleicoesdigt
+				</a>
 				</p>
 			</div>
 		</section>

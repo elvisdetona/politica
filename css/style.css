@@ -65,7 +65,9 @@ body {
 }
 p {
   font-family: "Arial Narrow", Arial, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 20px;
 }
 header {
   background-color: #ffffff;
@@ -119,30 +121,37 @@ nav ul li:last-child a:hover,
 nav ul li:last-child a:focus { 
   border-bottom: 0;
 }
+.full.bg {
+  background-image: url("../img/all_24.png");
+  background-position: center top;
+}
 
 .full.contato {
-  background-image: url("http://lorempixel.com/1500/320/");
+  background-image: url("../img/banner-contato.png");
 }
 .full.quem-somos {
-  background-image: url("http://lorempixel.com/1500/320/");
+  background-image: url("../img/banner-quem-somos.png");
 }
 .full.o-que-fazemos {
-  background-image: url("http://lorempixel.com/1500/320/");
+  background-image: url("../img/banner-o-que-fazemos.png");
 }
 .full.como-fazemos {
-  background-image: url("http://lorempixel.com/1500/320/");
+  background-image: url("../img/banner-como-fazemos.png");
 }
 .full.portfolio {
-  background-image: url("http://lorempixel.com/1500/320/");
+  background-image: url("../img/banner-portfolio.png");
 }
 
 main {
   display: table;
 }
+section.home {
+  margin-bottom: 90px;
+}
 
 .box-destaque {
   border: 1px solid #ffffff;
-  height: 312px;
+  height: 313px;
   position: relative;
   overflow: hidden;
 }
@@ -150,12 +159,92 @@ main {
   width: 100%;
   height: auto;
 }
-.box-destaque h2 {
+/*.box-destaque h2 {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 20px;
+  bottom: 20px;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "misobold", sans-serif;
+  text-shadow: 0 0 1px #ffffff;
+  text-align: right;
+}*/
+
+
+
+/* conteudo */
+.inicial {
+  margin-bottom: 20px;
+}
+.inicial img {
+  float: left;
+  display: block;
+}
+.inicial h2 {
+  float: left;
+  width: 410px;
+  padding: 162px 10px 0 10px;
+  margin-bottom: 0 !important;
+  display: block;
 
 }
+ul.list-portifolio {
+  width: 100%;
+  display: table;
+  margin-bottom: 20px;
+}
+ul.list-portifolio li h2 {
+  float:left;
+  width: 212px;
+  height: 210px;
+  display: block;
+  color: #ef6828;
+  border: 1px solid #ef6828;
+  padding-top: 80px;
+  text-align: center;
+
+}
+ul.list-portifolio li ul {
+  float: left;
+  width: 640px;
+}
+ul.list-portifolio li ul li {
+  float: left;
+  width: 212px;
+  height: 210px;
+  margin: 0 0 1px 1px;
+  position: relative;
+  display: block;
+}
+ul.list-portifolio li ul li span {
+  position: absolute;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  display: block;
+  color: #ffffff;
+  font-size: 22px;
+  font-family: "misoregular", sans-serif;
+  text-align: right;
+  text-shadow: 0 0 1px #ffffff;
+}
+ul.list-portifolio li ul li h3 {
+   position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 136px;
+  margin-bottom: 0;
+  display: block;
+  color: #ffffff;
+  font-size: 22px;
+  font-family: "misoregular", sans-serif;
+  text-align: right;
+}
+
+
+
+
+
 main .titcontact {
   font-family: "misobold", sans-serif;
   font-size: 48px;
@@ -164,35 +253,99 @@ main .titcontact {
   text-shadow: 0 0 1px #182e57;
   padding-left: 5px;
   border-left: 4px solid #ef6828;
+  margin-bottom: 20px;
 }
 
 footer {
-
+  text-align: center;
+  height: 30px;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
 }
 
+
 /* formulários */
+
+.contactform,
+.contactform p {
+  font-family: "misoregular", sans-serif; 
+}
+.content .contactform {
+  width: 100%;
+  display: table;
+}
+.content .contactform h2 { 
+  font-size: 48px;
+}
+
+.contactform p {
+  font-size: 24px;
+  line-height: 25px;
+}
+.contactform p a {
+  color: #182e57;
+  text-decoration: underline;
+}
+.contactform p a.twt {
+  color: #ef6828;
+  background: url("../img/menu-twitter.png") no-repeat 0 5px;
+  padding-top: 5px;
+  padding-left: 30px;
+  display: block;
+}
+
+form ul li {
+  background-color: #ffffff;
+  border: 1px solid #efefef;
+  width: 400px;
+  margin-bottom: 2px;
+}
+form ul li:last-child { 
+  background-color: transparent;
+  border: 0;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+form ul li label { 
+  width: 100px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 16px;
+  font-size: 24px;
+
+}
 
 input[type=text],
 input[type=email],
 input[type=password],
 input.input-text,
 select {
-  height: 44px;
-  border-radius: 5px;
-  background: #f1f1f1;
-  border:1px solid #dddddd;
+  border: 0;
   font-size: 16px;
   font-weight: 600;
   padding: 10px;
+  width: 280px;
+  font-family: "misoregular", sans-serif; 
 }
+input[type=submit] {
+  width: 112px;
+  height: 30px;
+  border: 0;
+  background: url("../img/botao-enviar.png") no-repeat left top;
+  text-align: right;
+  float: right;
+  cursor: pointer;
+}
+
 textarea {
-  border-radius: 5px;
-  background: #f1f1f1;
-  border:1px solid #dddddd;
+  border: 0;
   font-size: 16px;
   font-weight: 600;
   padding: 10px;
+  width: 280px;
   min-height: 100px; 
+  font-family: "misoregular", sans-serif;
+  resize: none;
 }
 
 
@@ -209,8 +362,25 @@ textarea {
   font-size: 48px;
   color: #182e57;
   text-shadow: 0 0 1px #182e57;
-  
+  margin-bottom: 20px;
 }
+
+.content h2 { 
+  font-family: "misoregular", sans-serif;
+  font-size: 28px;
+  color: #182e57;
+  /*text-shadow: 0 0 1px #182e57;*/
+  margin-bottom: 20px;
+}
+.content h3 { 
+  font-family: "misoregular", sans-serif;
+  font-size: 28px;
+  color: #ef6828;
+  /*text-shadow: 0 0 1px #182e57;*/
+  margin-bottom: 20px;
+}
+
+
 .full {
   width: 100%;
   background-color: #ffffff;
@@ -218,12 +388,20 @@ textarea {
   background-repeat: no-repeat;
 }
 
+.bgbox {
+  background-color: #ffffff;
+  padding:15px;
+  width: 75%;
+  float: right;
+
+}
+
 .wrapper { 
   position: relative; 
   width: 946px; 
   margin: 0 auto; 
   padding: 0; 
-  background-color:#ffffff;
+  /*background-color:#ffffff;*/
 }
 .wrapper .column,
 .wrapper .columns {
@@ -312,10 +490,10 @@ textarea {
 }
 .ir, 
 a.ir {
-  text-indent: -9999999px;
+  text-indent: -999999px;
   overflow: hidden;
   display: block;
-  text-align: left;
+  text-align: left !important;
 }
 .oculto {
   position: absolute;
