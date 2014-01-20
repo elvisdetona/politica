@@ -43,10 +43,12 @@
 
     var url = window.location.pathname,
                 urlRegExp = new RegExp(url.replace(/\/$/, '') + "$");
-                $('nav a').each(function () {
+                $('.interna nav a').each(function () {
+                
                 if (urlRegExp.test(this.href.replace(/\/$/, ''))) {
                     $(this).addClass('active');
                 }
+
             });
 
 })(jQuery);

@@ -17,7 +17,7 @@
 			<p>Entendemos que o mundo digital é uma plataforma de relacionamento entre pessoas. Isso quer dizer que de nada adianta empregar as últimas
 tendências tecnológicas se a sua campanha não tem uma estratégia que engaje, emocione e mova os eleitores em favor de suas ideias e propostas.</p>
 
-			<p>Nossos clientes contam com estratégias online completas. Sites, social media, blogs, SEO, pesquisa, monitoramento, e-mail marketing, gestão de cride e a tecnologia que está transformando a gestão pública e o jeito de conquistar votos: o Big Data.</p>
+			<p>Nossos clientes contam com estratégias online completas. Sites, social media, blogs, SEO, pesquisa, monitoramento, e-mail marketing, gestão de crise e a tecnologia que está transformando a gestão pública e o jeito de conquistar votos: o Big Data.</p>
  
 
 			<h3>PRÉ-CAMPANHA</h3>

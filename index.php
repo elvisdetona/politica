@@ -9,7 +9,7 @@
 			<div class="jcarousel">
 				<ul>
 					<li>
-						<a href="#"><img src="img/banner-offline.png" alt="Ficar offline não é uma opção. Veja o índice de rejeição de quem não fez campanha na internet em 2012"></a>
+						<a href="ficar-off-line-nao-e-opcao.php"><img src="img/banner-offline.png" alt="Ficar offline não é uma opção. Veja o índice de rejeição de quem não fez campanha na internet em 2012"></a>
 					</li>
 					<li>
 						<a href="#"><img src="img/banner-passado.png" alt="É preciso parar de vender o passado para quem quer comprar o futuro."></a>
@@ -21,7 +21,7 @@
 						<a href="#"><img src="img/banner-pouco-tempo-tv.png" alt="Pouco tempo de TV? Invista numa poderosa campanha na web."></a>
 					</li>
 					<li>
-						<a href="#"><img src="img/banner-big-data.png" alt="Big Data. Uma big ideia pzara turbinar sua campanha."></a>
+						<a href="big-data.php"><img src="img/banner-big-data.png" alt="Big Data. Uma big ideia pzara turbinar sua campanha."></a>
 					</li>
 				</ul>
 			</div>

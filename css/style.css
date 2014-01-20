@@ -141,6 +141,13 @@ nav ul li:last-child a:focus {
 .full.portfolio {
   background-image: url("../img/banner-portfolio.png");
 }
+.full.big-data {
+  background-image: url("../img/banner-interna-big-data.png");
+}
+.full.offline {
+  background-image: url("../img/banner-interna-offline.png");
+}
+
 
 main {
   display: table;
@@ -246,7 +253,7 @@ ul.list-portifolio li ul li h3 {
 
 
 main .titcontact {
-  font-family: "misobold", sans-serif;
+  font-family: "misoregular", sans-serif;
   font-size: 48px;
   line-height: 40px;
   color: #182e57;
@@ -358,7 +365,7 @@ textarea {
   margin-top: -32px;
 }
 .content h1 {
-  font-family: "misobold", sans-serif;
+  font-family: "misoregular", sans-serif;
   font-size: 48px;
   color: #182e57;
   text-shadow: 0 0 1px #182e57;
