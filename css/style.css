@@ -147,7 +147,15 @@ nav ul li:last-child a:focus {
 .full.offline {
   background-image: url("../img/banner-interna-offline.png");
 }
-
+.full.manifestacoes {
+  background-image: url("../img/banner-manifestacoes.png");
+}
+.full.eleicoes {
+  background-image: url("../img/banner-interna-eleicoes.png");
+}
+.full.conectado {
+  background-image: url("../img/banner-conectado.png");
+}
 
 main {
   display: table;
@@ -441,13 +449,7 @@ textarea {
 /* 768px */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
-.wrapper { 
-  position: relative; 
-  width: 500px; 
-  margin: 0 auto; 
-  padding: 0; 
-  background-color:#ffffff;
-}
+
  }
 
 
