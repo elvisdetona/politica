@@ -9,10 +9,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
 	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-
-	
-
-	<!--<script type="text/javascript" src="http://modernizr.com/downloads/modernizr-latest.js"></script>-->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<script type="text/javascript" src="http://modernizr.com/downloads/modernizr-latest.js"></script>
 
 </head>

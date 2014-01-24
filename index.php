@@ -45,37 +45,38 @@
 				</a>
 			</article>
 			<article class="box-destaque three columns">
-				<a href="aplicativo.php" aria-label="clique para ver o Nome do Destaque">
+				<a href="aplicativo.php" aria-label="clique para mais detalhes da página Aplicativo">
 					<img src="img/destaque-aplicativo.png" alt="Aplicativo">
 					<h2 class="ir">Aplicativo inédito e exclusivo para campanhas eleitorais</h2>
 				</a>
 			</article>
 			<article class="box-destaque three columns">
-				<a href="#" aria-label="clique para ver o Nome do Destaque">
+				<a href="palma-da-mao.php" aria-label="clique para mais detalhes de Faça o eleitor andar com a sua campanha na palma da mão">
 					<img src="img/destaque-palma-da-mao.png" alt="Treinamento">
 					<h2 class="ir">Faça o eleitor andar com a sua campanha na palma da mão.</h2>
 				</a>
 			</article>
 			<article class="box-destaque three columns">
-				<a href="#" aria-label="clique para ver o Nome do Destaque">
+				<a href="survey.php" aria-label="clique para mais detalhes de Politics Survey">
 					<img src="img/destaque-survey.png" alt="Survey">
 					<h2 class="ir">Politics Survey.<br> Pesquisas de campo com resultados em tempo real.</h2>
 				</a>
 			</article>
 			<article class="box-destaque three columns">
-				<a href="#" aria-label="clique para ver o Nome do Destaque">
+				<a href="videos.php" aria-label="clique para mais detalhes de Videos">
 					<img src="img/destaque-videos.png" alt="Videos">
 					<h2 class="ir">Sem bons vídeos online sua campanha não viraliza.</h2>
 				</a>
 			</article>
 			<article class="box-destaque three columns">
-				<a href="#" aria-label="clique para ver o Nome do Destaque">
+				<a href="quem-suja-agora-vai-sujar-depois.php" aria-label="clique para mais detalhes do Case Quem suja agora, vai sujar depois.">
 					<img src="img/destaque-case-quem-suja-agora-vai-sujar-depois.png" alt="Treinamento">
 					<h2 class="ir">Quem suja agora, vai sujar depois. <br>Curta um dos nossos cases.</h2>
 				</a>
 			</article>
 
 		</section>
+		
 		<?php include("formulario.php"); ?>
 	</div>
 

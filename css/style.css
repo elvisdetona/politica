@@ -130,19 +130,11 @@ nav ul li:last-child a:focus {
   background-image: url("../img/all_24.png");
   background-position: center top;
   background-attachment: scroll;
- -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 .full.contato {
   background-image: url("../img/banner-contato.png");
   background-attachment: scroll;
- -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 .full.quem-somos {
   background-image: url("../img/banner-quem-somos.png");
@@ -177,6 +169,21 @@ nav ul li:last-child a:focus {
 .full.treinamento {
   background-image: url("../img/banner-treinamento.png");
 }
+.full.palma {
+  background-image: url("../img/banner-palma-da-mao.png");
+}
+.full.survey {
+  background-image: url("../img/banner-survey.png");
+}
+.full.videos {
+  background-image: url("../img/banner-videos.png");
+}
+.full.quem-suja {
+  background-image: url("../img/banner-quem-suja-agora.png");
+}
+
+
+
 
 main {
   display: table;
@@ -293,7 +300,6 @@ main .titcontact {
 }
 .share {
   top: 10px;
-
 }
 
 footer {
@@ -420,6 +426,10 @@ textarea {
   /*text-shadow: 0 0 1px #182e57;*/
   margin-bottom: 20px;
 }
+.content p a {
+  font-weight: bold;
+  color: #ef6828;
+}
 
 
 .full {
@@ -434,7 +444,9 @@ textarea {
   padding:15px;
   width: 75%;
   float: right;
-
+}
+.mrgtp-20 {
+  margin-top: 20px;
 }
 
 .wrapper { 

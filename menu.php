@@ -1,5 +1,5 @@
 			<nav role="navigation">
-				<span class="oculto"><a href="#main" aria-label="Pular para o conteúdo">Pular para o conteúdo</a></span>
+				<span class="oculto"><a href="#main" class="oculto" aria-label="Pular para o conteúdo">Pular para o conteúdo</a></span>
 				<ul>
 					<li><a href="index.php" aria-label="Voltar para Home">Home</a></li>
 					<li><a href="quem-somos.php" aria-label="ir para página Quem Somos">Quem Somos</a></li>
