@@ -3,11 +3,13 @@
 			<p>Entre em contato para agendar uma visita<br />
 				ou obter mais informações.</p>
 			<div class="two columns">
-				<form action="#" method="post">
+				<form action="sendmail.php" method="post">
 					<ul>
 						<li>
 							<label for="nome">Nome:</label>
 							<input type="text" name="nome" id="nome" />
+							<input type="hidden" name="section" id="section" value="contato" />
+
 						</li>
 						<li>
 							<label for="email">E-mail:</label>
@@ -22,7 +24,7 @@
 						</li>
 					</ul>
 				</form>
-				<p><strong>Mensagem enviada com sucesso!</strong></p>
+				
 			</div>
 			<div class="two columns">
 				<p class="bgbox">Rua Barata Ribeiro, 260 1º andar<br />

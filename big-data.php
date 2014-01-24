@@ -1,3 +1,6 @@
+<?php 
+$nomepagina = "Big Data. Uma big ideia para turbinar sua campanha | "; 
+?>
 <?php include("head.php"); ?>
 <body>
 	<header role="banner" class="full interna big-data">

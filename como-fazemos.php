@@ -1,5 +1,9 @@
+<?php 
+$nomepagina = "Como Fazemos | "; 
+?>
 <?php include("head.php"); ?>
 <body>
+
 	<header role="banner" class="full interna como-fazemos">
 		<section class="wrapper">
 			<span><a href="/"><img src="img/eleicoes-digitais.png" alt="Eleições Digitais - Comunicação Pública"></a></span>

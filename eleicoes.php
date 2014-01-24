@@ -1,3 +1,6 @@
+<?php 
+$nomepagina = "Nas duas últimas eleições, fizemos 19 campanhas e vencemos 15 | "; 
+?>
 <?php include("head.php"); ?>
 <body>
 	<header role="banner" class="full interna eleicoes">

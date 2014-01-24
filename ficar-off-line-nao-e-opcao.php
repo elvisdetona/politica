@@ -1,3 +1,6 @@
+<?php 
+$nomepagina = "Ficar offline não é uma opção | "; 
+?>
 <?php include("head.php"); ?>
 <body>
 	<header role="banner" class="full interna offline">

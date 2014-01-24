@@ -1,3 +1,6 @@
+<?php 
+$nomepagina = "O que fazemos - Produtos e serviços para campanhas eleitorais e gestão pública | "; 
+?>
 <?php include("head.php"); ?>
 <body>
 	<header role="banner" class="full interna o-que-fazemos">

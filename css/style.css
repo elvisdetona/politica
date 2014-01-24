@@ -60,6 +60,11 @@
     
 
 /************************************************/
+html {
+  -webkit-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%;
+
+}
 body {
   color: #162c55;
 }
@@ -124,10 +129,20 @@ nav ul li:last-child a:focus {
 .full.bg {
   background-image: url("../img/all_24.png");
   background-position: center top;
+  background-attachment: scroll;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .full.contato {
   background-image: url("../img/banner-contato.png");
+  background-attachment: scroll;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .full.quem-somos {
   background-image: url("../img/banner-quem-somos.png");
@@ -155,6 +170,12 @@ nav ul li:last-child a:focus {
 }
 .full.conectado {
   background-image: url("../img/banner-conectado.png");
+}
+.full.aplicativo {
+  background-image: url("../img/banner-aplicativo.png");
+}
+.full.treinamento {
+  background-image: url("../img/banner-treinamento.png");
 }
 
 main {
@@ -270,6 +291,10 @@ main .titcontact {
   border-left: 4px solid #ef6828;
   margin-bottom: 20px;
 }
+.share {
+  top: 10px;
+
+}
 
 footer {
   text-align: center;
@@ -322,7 +347,7 @@ form ul li:last-child {
   margin-top: 10px;
 }
 form ul li label { 
-  width: 100px;
+  width: 140px;
   display: inline-block;
   vertical-align: top;
   padding-left: 16px;
@@ -333,13 +358,14 @@ form ul li label {
 input[type=text],
 input[type=email],
 input[type=password],
+input[type=tel],
 input.input-text,
 select {
   border: 0;
   font-size: 16px;
   font-weight: 600;
   padding: 10px;
-  width: 280px;
+  width: 244px;
   font-family: "misoregular", sans-serif; 
 }
 input[type=submit] {
@@ -357,7 +383,7 @@ textarea {
   font-size: 16px;
   font-weight: 600;
   padding: 10px;
-  width: 280px;
+  width: 240px;
   min-height: 100px; 
   font-family: "misoregular", sans-serif;
   resize: none;

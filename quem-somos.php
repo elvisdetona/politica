@@ -1,3 +1,6 @@
+<?php 
+$nomepagina = "Quem Somos | "; 
+?>
 <?php include("head.php"); ?>
 <body>
 	<header role="banner" class="full interna quem-somos">
@@ -46,8 +49,14 @@
 				<p>Use a nossa experiência a seu favor e contra os seus adversários. Planeje sua campanha web com a Eleições Digitais. A gente conhece como ninguém o novo eleitor brasileiro.</p>
 
 
+
+
 			</section>
 		</div>
+		
+
+
+		
 		<?php include("footer.php"); ?>
 	</main>
 

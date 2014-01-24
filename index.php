@@ -18,7 +18,7 @@
 						<a href="eleicoes.php"><img src="img/banner-cartao-visita.png" alt="Nas duas últimas eleições, fizemos 19 campanhas e vencemos 15. Esse é o nosso cartão de visita."></a>
 					</li>
 					<li>
-						<a href="conectdo.php"><img src="img/banner-pouco-tempo-tv.png" alt="Pouco tempo de TV? Invista numa poderosa campanha na web."></a>
+						<a href="conectado.php"><img src="img/banner-pouco-tempo-tv.png" alt="Pouco tempo de TV? Invista numa poderosa campanha na web."></a>
 					</li>
 					<li>
 						<a href="big-data.php"><img src="img/banner-big-data.png" alt="Big Data. Uma big ideia pzara turbinar sua campanha."></a>
@@ -39,13 +39,13 @@
 
 		<section class="home clearfix">
 			<article class="box-destaque three columns">
-				<a href="#" aria-label="clique para mais detalhes de Treinamento">
+				<a href="treinamento.php" aria-label="clique para mais detalhes de Treinamento">
 					<img src="img/destaque-treinamento.png" alt="Treinamento">
 					<h2 class="ir">Treinamento.<br> Prepare a sua equipe para guerra.</h2>
 				</a>
 			</article>
 			<article class="box-destaque three columns">
-				<a href="#" aria-label="clique para ver o Nome do Destaque">
+				<a href="aplicativo.php" aria-label="clique para ver o Nome do Destaque">
 					<img src="img/destaque-aplicativo.png" alt="Aplicativo">
 					<h2 class="ir">Aplicativo inédito e exclusivo para campanhas eleitorais</h2>
 				</a>

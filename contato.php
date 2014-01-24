@@ -1,3 +1,6 @@
+<?php 
+$nomepagina = "Contato | "; 
+?>
 <?php include("head.php"); ?>
 <body>
 	<header role="banner" class="full interna contato">

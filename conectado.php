@@ -1,3 +1,6 @@
+<?php 
+$nomepagina = "Pouco tempo de TV? | "; 
+?>
 <?php include("head.php"); ?>
 <body>
 	<header role="banner" class="full interna conectado">
