@@ -40,7 +40,7 @@ tendências tecnológicas se a sua campanha não tem uma estratégia que engaje,
 			• <strong>Big Data.</strong> Garimpagem dos dados e definição de estratégia.<br>
 			• <strong>Pesquisa.</strong> Pesquisa de campo com resultados em tempo real, com a ferramenta Politics Survey.<br>
 			• <strong>Site oficial.</strong> Criação e produção de todo o projeto: design, desenvolvimento, conteúdo e manutenção.<br>
-			• <strong>Seeding.</strong> Ajudamos a semear suas propostas e blindar sua campanha contra ataques infundados.<br>
+			• <strong>Seeding.</strong> Ajudamos a semear suas propostas e a blindar sua campanha contra ataques infundados.<br>
 			• <strong>Mobile.</strong> Aplicativos mobile para celulares, tablets e criação de games sociais.<br>
 			• <strong>e-mail marketing. </strong>Quando bem utilizado, o e-mail é umas das ferramentas sociais mais eficazes para ganhar a credibilidade do eleitor. Para se ter uma ideia, as chances de fidelizar um eleitor são bem maiores do que no Facebook.<br>
 			• <strong>SEO. </strong> Search Engine Optimization não é mais o que era antigamente. A fase, exclusivamente de códigos, já era. Agora, para obter relevância nos motores de busca você precisa de um projeto dedicado. <br>

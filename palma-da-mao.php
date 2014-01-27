@@ -15,7 +15,7 @@ $nomepagina = "Faça o eleitor andar com sua campanha na palma da mão | ";
 			<section class="content">
 				<h1>Faça o eleitor andar com sua campanha na palma da mão.</h1>
 				
-				<p>Fem uma boa estratégia mobile sua campanha não sai do lugar comum.<br>
+				<p>Sem uma boa estratégia mobile sua campanha não sai do lugar comum.<br>
 Os números estão aí e não nos deixa mentir. Veja alguns pontos de um estudo da Nielsen Mobile Report, de dezembro de 2013.</p>
 
 				

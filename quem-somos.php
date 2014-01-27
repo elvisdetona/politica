@@ -16,7 +16,7 @@ $nomepagina = "Quem Somos | ";
 				<h1>Quem Somos</h1>
 				<div class="inicial clearfix">
 					<img src="img/paulo-roque.png" alt="Paulo Roque">
-					<h2>Paulo Roque de Andrade, <br />o marqueteiro digital com o maior<br /> número de campanhas e vitórias</br> nas duas últimas em eleições.</h2>
+					<h2>Paulo Roque de Andrade, <br />o marqueteiro digital com o maior<br /> número de campanhas e vitórias</br> nas duas últimas eleições.</h2>
 					<img src="img/abcop.png" alt="Consultor credenciado ABCOP – Associação Brasileira de Consultores Políticos">
 				</div>
 

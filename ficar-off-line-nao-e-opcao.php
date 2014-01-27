@@ -14,7 +14,7 @@ $nomepagina = "Ficar offline não é uma opção | ";
 		<div class="wrapper">
 		<section class="content">
 			<h1>Ficar offline não é uma opção.</h1>
-			<h2> Veja o índice de rejeiçãode quem não fez campanha na internet em 2012.</h2>
+			<h2> Veja o índice de rejeição de quem não fez campanha na internet em 2012.</h2>
 			
 			<div class="inicial clearfix">
 				<img src="img/grafico-offline.png" alt="índice de rejeiçãode quem não fez campanha na internet em 2012">

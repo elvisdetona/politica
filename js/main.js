@@ -5,8 +5,10 @@
         .jcarouselAutoscroll({
             interval: 8000,
             target: '+=1',
-            //wrap : 'circular',
-            autostart: true
+            wrap : 'circular',
+             buttonNextHTML: null,
+             buttonPrevHTML: null,
+             autostart: true
         });
 
         $('.jcarousel-control-prev')
@@ -43,7 +45,7 @@
 
     var url = window.location.pathname,
                 urlRegExp = new RegExp(url.replace(/\/$/, '') + "$");
-                $('.interna nav a').each(function () {
+                $('.interna nav a, footer nav a').each(function () {
                 
                 if (urlRegExp.test(this.href.replace(/\/$/, ''))) {
                     $(this).addClass('active');

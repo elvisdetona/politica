@@ -30,6 +30,15 @@ e profissionais apaixonados pelo que fazem.</p>
 					</div>
 				</div>
 
+				<h3>NEWS <br>
+				VÍDEOS DA ELEIÇÕES DIGITAIS SÃO APLAUDIDOS NA EUROPA.
+				</h3>
+				<p>Dois vídeos de cases criados pela Eleições Digitais são apresentados na Conferência Anual da IAPC - International Association of Political Consultants, em Paris, e ganham aplausos entusiasmados da platéia.</p>
+				<img src="img/apresentacao-cases.png" alt="Apresentação Cases Europa">
+				<img src="img/apresentacao-cases-europa.png" alt="Apresentação Cases Europa" class="mrgtp-20">
+
+
+
 			</section>
 		</div>
 		<?php include("footer.php"); ?>

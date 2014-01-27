@@ -59,9 +59,9 @@ $nomepagina = "Portfólio | ";
 							<h3>Edson <br>Aparecido <br>PSDB (Deputado Federal)</h3>
 						</li>
 						<li>
-							<img src="img/lindberg.png" alt="Lindberg Faria">
+							<img src="img/lindberg.png" alt="Lindbergh Faria">
 							<span>RJ</span>
-							<h3>Lindberg Faria <br>PT (Senador)</h3>
+							<h3>Lindbergh Faria <br>PT (Senador)</h3>
 						</li>
 						<li>
 							<img src="img/helio-costa.png" alt="Hélio Costa">

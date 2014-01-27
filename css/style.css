@@ -45,21 +45,6 @@
 
 }
 
-/* Table of Contents
-==================================================
-    #Base 960 Grid
-    #Tablet (Portrait)
-    #Mobile (Portrait)
-    #Mobile (Landscape)
-    #Clearing 
-    #Font light - weight:300;
-    #Font normal - weight:400;
-    #Font semibold - weight:600;
-    #Font bold - weight:700;
-    */
-    
-
-/************************************************/
 html {
   -webkit-text-size-adjust: 100%;
    -ms-text-size-adjust: 100%;
@@ -308,7 +293,13 @@ footer {
   margin-top: 30px !important;
   margin-bottom: 30px !important;
 }
+address {
+  padding-top: 20px;
+}
 
+footer ul li a {
+  font-size: 18px;
+}
 
 /* formulários */
 
@@ -542,21 +533,22 @@ a.ir {
   display: block;
   text-align: left !important;
 }
-.oculto {
+a.oculto {
   position: absolute;
-  top: 0;
+  top: -300px;
   left: 0;
   text-align: center;
   width: 100%;
-  display: none;
-  
   background-color: #000000;
-}
-.oculto a {
   color: #ffffff;
   height: 30px;
   display: block;
   padding-top: 5px;
+  font-family: arial, sans-serif;
+  font-size: 15px;
+}
+a:focus.oculto { 
+  top: 0;
 }
 
 

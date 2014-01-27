@@ -22,7 +22,10 @@ e combater a sujeira nas ruas durante o período eleitoral.</p>
 				<p>Para se ter uma ideia, em São Paulo, um partido até contratou garis para limpar a papelada em suas caminhadas e carreatas. Assista aos vídeos
 no <a href="http://www.youtube.com/user/quemsujaagora" target="_blank">Youtube</a> e curta a página no <a href="https://www.facebook.com/quemsujaagora" target="_blank">Facebook</a> .</p>
 
-				<img src="img/video-quem-suja-agora.png" alt="Print Youtube - Quem suja agora vai sujar depois">
+				<div class="clearfix">
+					<iframe width="640" height="360" src="//www.youtube.com/embed/5rU_NFsZPQ8?rel=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+
 				<div class="clearfix mrgtp-20">
 					<a href="https://www.facebook.com/quemsujaagora" target="_blank">
 						<img src="img/facebook-quemsujaagora.png" alt="Acesse o facebook do quem suja agora">
