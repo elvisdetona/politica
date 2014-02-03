@@ -48,14 +48,8 @@
 		<address>Todos os direitos reservados - atendimento@eleicoesdigitais.com.br - 11 95771-9881</address>
 	</footer>
 	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-	<script type="text/javascript" src="js/carousel.js"></script>	
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
-	<script>
-	  $(function(){
-	    
-	    //var $container = $('#container');
-	  });
-	</script>
 	<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-0000000']);
