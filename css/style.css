@@ -94,6 +94,10 @@ nav ul li:last-child {
   border-left: none;
   margin-right: 0;
 }
+nav ul li.sm {
+  margin-right: 5px;
+  padding-left: 10px;
+}
 nav ul li a {
   font-family: "misoregular", sans-serif;
   font-size: 24px;
@@ -107,7 +111,7 @@ nav ul li a:focus,
 nav ul li a.active {
   border-bottom: 2px solid #ef6828;
 }
-nav ul li:last-child a:hover,
+nav ul li:last-child a:hover, nav ul li.sm a:hover, nav ul li.sm a:focus,
 nav ul li:last-child a:focus { 
   border-bottom: 0;
 }

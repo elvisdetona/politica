@@ -19,7 +19,7 @@
 
     var url = window.location.pathname,
                 urlRegExp = new RegExp(url.replace(/\/$/, '') + "$");
-                $('.interna nav a, footer nav a').each(function () {
+                $('.interna nav a, footer.iint nav a').each(function () {
                 
                 if (urlRegExp.test(this.href.replace(/\/$/, ''))) {
                     $(this).addClass('active');
