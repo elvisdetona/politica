@@ -40,13 +40,13 @@
 					<li><a href="portfolio.php" aria-label="ir para página Portfólio">Portfólio</a></li>
 					<li><a href="contato.php" aria-label="ir para página Contato">Contato</a></li>
 					<li class="sm"><a href="http://twitter.com/eleicoesdigt" aria-label="Acessar o twitter @eleicoesdigt" target="_blank" rel="external"><img src="img/menu-twitter.png" alt="Acessar o twitter"></a></li>
-					<li><a href="https://www.facebook.com/roberto.magalhaes.52012" aria-label="Acesse a FanPage de Eleições Digitais" target="_blank" rel="external"><img src="img/menu-fb.png" alt="Acesse a FanPage de Eleições Digitais"></a></li>
+					<li><a href="https://www.facebook.com/eleicoesdigitais" aria-label="Acesse a FanPage de Eleições Digitais" target="_blank" rel="external"><img src="img/menu-fb.png" alt="Acesse a FanPage de Eleições Digitais"></a></li>
 				</ul>
 			</nav>
 
 
 
-		<address>Todos os direitos reservados - atendimento@eleicoesdigitais.com.br - 11 95771-9881</address>
+		<address>Todos os direitos reservados - atendimento@eleicoesdigitais.com.br</address>
 	</footer>
 	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>

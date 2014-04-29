@@ -27,9 +27,9 @@
 				
 			</div>
 			<div class="two columns">
-				<p class="bgbox">Rua Barata Ribeiro, 260 1º andar<br />
+				<p class="bgbox">Av. Paulista, 1213<br />
 				São Paulo/SP<br />
-				11 95771-9881<br />
+				
 				<a href="mailto:atendimento@eleicoesdigitais.com.br" aria-label="Envie um e-mail para atendimento@eleicoesdigitais.com.br">atendimento@eleicoesdigitais.com.br</a> <br />
 				<a href="http://twitter.com/eleicoesdigt" aria-label="Acessar o twitter @eleicoesdigt" target="_blank" class="twt">
 				@eleicoesdigt
