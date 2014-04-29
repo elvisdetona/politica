@@ -18,6 +18,7 @@ $nomepagina = "Quem Somos | ";
 					<img src="img/paulo-roque.png" alt="Paulo Roque">
 					<h2>Paulo Roque de Andrade, <br />o marqueteiro digital com o maior<br /> número de campanhas e vitórias</br> nas duas últimas eleições.</h2>
 					<img src="img/abcop.png" alt="Consultor credenciado ABCOP – Associação Brasileira de Consultores Políticos">
+					<img src="img/selo-aapc.jpg" alt="American Association Of Political Consultants">
 				</div>
 
 				<p>A Eleições Digitais Comunicação Pública nasceu quando o redator e diretor de criação Paulo Roque percebeu que podia juntar duas experiências adquiridas ao longo de sua carreira: marketing político e internet.</p>
